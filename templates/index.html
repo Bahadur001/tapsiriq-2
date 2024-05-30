@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block page__title %}
+MOVIES
+{% endblock page__title %}
+
+
+
+{% block body %}
+
+
+
+
+
+<div class="films">
+    <h1>Filmler Wikpedia</h1>
+    <ul>
+        {% for article in films %}
+         <li>
+            <h3>{{article.author}}</h3>
+            <h4>{{article.title}}</h4>
+            <p>{{article.content}}</p>
+            <small>{{article.created_date}}</small>
+         </li>
+         <hr>
+        {% endfor in %}
+    </ul>
+    </div>
+
+
+
+{% endblock body %}

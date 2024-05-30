@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(8, 74, 109);
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.films ul li{
+    list-style: decimal;
+}
