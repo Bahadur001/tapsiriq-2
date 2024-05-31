@@ -8,8 +8,44 @@
 body{
     background-color: rgb(8, 74, 109);
     color: rgb(255, 255, 255);
-    margin: 20px;
 }
+a, i{
+    color: rgb(0, 36, 46);
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 10px;
+    background-color: rgb(201, 230, 11);
+}
+.nav__logo img{
+  width: 50px;
+}
+.nav__links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+
+
+.btn{
+   padding: 10px 15px;
+   background-color: black;
+   color: wheat; 
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+
 .films ul li{
     list-style: decimal;
 }
